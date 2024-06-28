@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de pontuação</title>
+</head>
+<body>
+    <h1>Sistema de pontuação</h1>
+    <div id="mensagem"></div>
+    <script>
+        let pontucao = 120;
+        let mensagemDiv = document.getElementById('mensagem');
+        if(pontucao >= 100){
+            mensagemDiv.textContent = "Parabéns, você venceu!";
+    } else {
+      mensagemDiv.textContent = "Tente novamente para ganhar!";
+    }
+    </script>
+</body>
+</html>
